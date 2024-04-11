@@ -110,9 +110,13 @@
           This page will dynamically load pictures from the web, and display
           them in a cool way!
         </p>
+        <form id="search-form" class="d-flex my-3" role="search">
+          <input id="search-input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id="search-btn" class="btn btn-outline-success" type="submit">Search</button>
+        </form>
         <p>
-          <a href="#" id="first-set" class="btn btn-primary my-2">Load Images</a>
-          <a href="#" id="second-set" class="btn btn-secondary my-2">Load Secondary Images</a>
+          <a href="#" id="first-set" class="btn btn-primary my-2 w-100">Load Example Images</a>
+          <a href="#" id="second-set" class="btn btn-secondary my-2 w-100">Load Example Images</a>
         </p>
       </div>
     </section>
@@ -120,7 +124,7 @@
       <div class="container">
         <div id="card-row" class="row">
 
-          <div class="alert alert-primary" role="alert">
+          <div class="alert alert-primary col-md-6 offset-md-3" role="alert">
             Click a button to display the pictures!
           </div>
           <!-- <div id="card-col" class="col-md-4">

@@ -12,7 +12,6 @@
             padding-top: 3rem;
             padding-bottom: 3rem;
             margin-bottom: 0;
-            background-color: #fff;
         }
 
         @media (min-width: 768px) {
@@ -62,6 +61,16 @@
                 font-size: 3.5rem;
             }
         }
+
+        .underline {
+            text-decoration: none;
+        }
+
+        .frosted-glass {
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.5);
+        }
     </style>
 </head>
 
@@ -105,17 +114,17 @@
         <section class="jumbotron text-center">
             <div class="container">
                 <h1 class="jumbotron-heading">Picture details</h1>
-                <p class="lead text-muted">
+                <p class="lead">
                     This page will dynamically show the details of a picture you selected, and display
                     them in a cool way!
                 </p>
                 <p>
-                    <a href="pexels-start.html" id="go-back" class="btn btn-outline-secondary my-2">GO BACK</a>
+                    <a href="pexels-start.html" id="go-back" class="btn btn-outline-dark my-2">GO BACK</a>
                 </p>
             </div>
         </section>
 
-        <div class="album pb-1 bg-light">
+        <div class="album pb-1">
             <div class="container">
                 <div id="card-row" class="row justify-content-center">
                     <!-- <div id="card-col" class="col-6">
